@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: theme("colors.brand.cream");
+  color: theme("colors.brand.black");
+}
+
+@layer utilities {
+  .heading-serif {
+    font-family: var(--font-playfair), Georgia, serif;
+  }
+}
